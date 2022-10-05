@@ -1,19 +1,30 @@
 main{
     background-color: antiquewhite;
+    /* background-image: linear-gradient(to right bottom, #2386d1, #42a2dc, #69bce4, #93d6ed, #bfeef8); */
     height: 1000px;
+    width: 1000px;
+    /*จัดเนื้อหาเข้าตรงกลาง*/
+    margin-right: auto;
+    margin-left: auto;
 }
 header{
-    background-color: rgb(235, 235, 156);
-    height: 150px;
+    background-color: rgb(178, 183, 233);
+    height: 50px;
     overflow: hidden;
 }
+body{
+    background-image: linear-gradient(to right bottom, #2386d1, #42a2dc, #69bce4, #93d6ed, #bfeef8);
+}
 #logo{
-    background-color: blue;
-    width: 45px;
+    /* background-color: blue; */
+    /* width: 45px; */
     float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+    border-radius: 50%;
 }
 #menu{
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     width: 400px;
     float : right;
 }
@@ -22,11 +33,18 @@ header{
 }
 #content{
     background-color: rgb(205, 175, 233);
-    height: 150px;
+    margin-left: 20px;
+    margin-right: auto;
 }
 .subcontent{
-    background-color: rgb(226, 181, 181);
-    height: 100px;
+    background-color: rgb(100, 149, 214);
+    float: left;
+    margin: 8px;
+    width: 280px;
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: 1px 1.5px 3px 2px #5e7a8b;
+    padding: 5px;
 }
 ul{
     list-style-type: none;
